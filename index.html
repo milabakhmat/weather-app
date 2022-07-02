@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <h1>
+      <i class="fa fa-thermometer" style="font-size: 36px;"></i>
+      WeatherBuddy
+    </h1>
+    <form id="enter-search">
+      <div class="form-group">
+        <input
+          type="text"
+          placeholder="Enter your city"
+          id="enter-city"
+          autofocus
+        />
+
+        <input type="submit" value="Search" class="btn btn-success" />
+      </div>
+    </form>
+
+    <button>
+      Current location
+    </button>
+
+    <h3 id="city"></h3>
+    <!---<div>
+    <span id="grade">77</span> 
+    <span>
+      <a href="#" id="celsius-link">C</a>/
+      <a href="#" id="fahrenheit-link">F</a>
+    </span>
+  </div> -->
+
+    <br />
+
+    <div class="all-data">
+      <div id="date-time"></div>
+      <div id="humidity"></div>
+      <div id="new-temp"></div>
+      <div id="wind"></div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>

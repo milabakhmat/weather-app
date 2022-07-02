@@ -1,0 +1,29 @@
+body {
+  padding: 10px 10px 10px 10px;
+}
+section {
+  margin: 40px;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  padding: 30px;
+}
+h1 {
+  color: darkgrey;
+  padding: 10px 10px 10px;
+}
+.form-group {
+  padding: 10px 10px 10px;
+  width: 40%;
+}
+.btn-success {
+  padding: 10px 10px 10px 10px;
+}
+.all-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+#new-temp {
+  font-size: 28px;
+  font-weight: bold;
+}
