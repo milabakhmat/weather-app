@@ -16,29 +16,28 @@
   </head>
 
   <body>
-    <h1>
-      <i class="fa fa-thermometer" style="font-size: 36px;"></i>
-      WeatherBuddy
-    </h1>
-    <form id="enter-search">
-      <div class="form-group">
-        <input
-          type="text"
-          placeholder="Enter your city"
-          id="enter-city"
-          autofocus
-        />
+    <div class="grid">
+      <h1>
+        <i class="fa fa-thermometer" style="font-size: 36px"></i>
+        WeatherBuddy
+      </h1>
+      <form id="enter-search">
+        <div class="form-group">
+          <input
+            type="text"
+            placeholder="Enter your city"
+            id="enter-city"
+            autofocus
+          />
 
-        <input type="submit" value="Search" class="btn btn-success" />
-      </div>
-    </form>
+          <input type="submit" value="Search" class="btn btn-success" />
+        </div>
+      </form>
 
-    <button>
-      Current location
-    </button>
+      <button>Current location</button>
 
-    <h3 id="city"></h3>
-    <!---<div>
+      <h3 id="city"></h3>
+      <!---<div>
     <span id="grade">77</span> 
     <span>
       <a href="#" id="celsius-link">C</a>/
@@ -46,15 +45,16 @@
     </span>
   </div> -->
 
-    <br />
+      <br />
 
-    <div class="all-data">
-      <div id="date-time"></div>
-      <div id="humidity"></div>
-      <div id="new-temp"></div>
-      <div id="wind"></div>
+      <div class="all-data">
+        <div id="date-time"></div>
+        <div id="humidity"></div>
+        <div id="new-temp"></div>
+        <div id="wind"></div>
+      </div>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="src/index.js"></script>
     </div>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="src/index.js"></script>
   </body>
 </html>

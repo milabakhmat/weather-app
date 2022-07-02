@@ -1,6 +1,11 @@
 body {
   padding: 10px 10px 10px 10px;
 }
+.container {
+  padding: 20px 20px 20px 20px;
+  margin: 10px 10px 10px 10px;
+  background-color: blue;
+}
 h1 {
   color: darkgrey;
   padding: 10px 10px 10px;
