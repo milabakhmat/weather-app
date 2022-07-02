@@ -1,11 +1,6 @@
 body {
   padding: 10px 10px 10px 10px;
 }
-section {
-  margin: 40px;
-  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
-  padding: 30px;
-}
 h1 {
   color: darkgrey;
   padding: 10px 10px 10px;
